@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <div class="container">
+        <div class="main"><label class="label" for="">Google Translate - Text</label>
+        <button id="changeBtn" class="changeButton">
+            <label class="buttonText" id="buttonText1" for="">English</label>
+            <label for=""><img src="./icon/switch.png" alt=""></label>
+            <label  class="buttonText" id="buttonText2" for="">Turkish</label>
+        </button>
+        </div>
+        <div class="main-2">
+            <div class="div-input">
+                <div>
+                    <label class="label" for="input">Translate form</label>
+                    <label class="bold label" for="" id="langForm">English</label>
+                </div>
+                <textarea name="input" type="text" class="input" id="input"></textarea>
+            </div>
+            <div class="div-input">
+                <div>
+                    <label class="label" for="input">Translate to</label>
+                    <label class="bold label" for="" id="langTo">Turkish</label>
+                </div>
+                <textarea name="input" type="text" class="input" id="output" readonly></textarea>
+            </div>
+        </div>
+        <button id="subBtn" class="subBtn">Translate</button>
+    </div>
+
+
+    <script src="app.js"></script>
+</body>
+
+</html>
